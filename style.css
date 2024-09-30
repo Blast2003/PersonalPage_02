@@ -1,0 +1,87 @@
+/* Custom logo styling */
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 10%;
+  }
+
+  /* Base styles using CSS variables */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: bold;
+  }
+  
+  .intro {
+    text-align: center;
+    margin-top: 20px;
+    border-bottom: 3px solid var(--border-color);
+  }
+  
+  .projects,
+  .work-experience,
+  .education {
+    background-color: var(--card-bg-color);
+    border: 3px solid var(--border-color);
+    border-radius: 5px;
+  }
+  
+  .review-card {
+    background-color: var(--card-bg-color);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    color: var(--text-color);
+  }
+  
+  
+  /* Header title font customization */
+  .headerTitle {
+    font-size: 30px;
+    margin-left: 250px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .Work-exp{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  @media (max-width: 768px) {
+    .Work-exp{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+        border-bottom: 1px black solid;
+      }
+  }
+
+
+
+
+  
